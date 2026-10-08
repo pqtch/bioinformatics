@@ -1,0 +1,112 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    DESKTOP-5BFHPQJ (AVX2, FMA3, 7 GB RAM)
+Command: ./mammal_data_analysis_gtr/iqtree2 -s ./mammal_data_analysis_gtr/m13212_subsampled_gb.fas -m GTR+G5 -nt 2
+Seed:    380522 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  8 10:04:48 2026
+Kernel:  AVX+FMA - 2 threads (12 CPU cores detected)
+
+Reading alignment file ./mammal_data_analysis_gtr/m13212_subsampled_gb.fas ... Fasta format detected
+Reading fasta file: done in 0.000242221 secs using 99.08% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 12 sequences with 1346 columns, 142 distinct patterns
+78 parsimony-informative, 184 singleton sites, 1084 constant sites
+                              Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 1.3425e-05 secs
+   1  sarcophilus_harrisii            0.45%    passed     71.60%
+   2  ornithorhynchus_anatinus        2.38%    passed     21.29%
+   3  macaca_mulatta                  0.00%    passed     99.05%
+   4  carlito_syrichta                0.00%    passed     99.40%
+   5  cricetulus_griseus_chok1gshd    0.15%    passed     99.82%
+   6  chlorocebus_sabaeus             0.00%    passed     98.23%
+   7  mesocricetus_auratus            0.15%    passed     99.89%
+   8  pan_paniscus                    2.82%    passed     99.35%
+   9  jaculus_jaculus                 0.15%    passed     97.90%
+  10  otolemur_garnettii              0.00%    passed     99.01%
+  11  pan_troglodytes                 0.00%    passed     98.23%
+  12  canis_familiaris                5.65%    passed     88.67%
+****  TOTAL                           0.98%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.000 seconds
+
+NOTE: 0 MB RAM (0 GB) is required!
+WARNING: Number of threads seems too high for short alignments. Use -T AUTO to determine best number of threads.
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3588.053
+2. Current log-likelihood: -3547.975
+3. Current log-likelihood: -3546.600
+Optimal log-likelihood: -3546.558
+Rate parameters:  A-C: 2.06960  A-G: 4.24169  A-T: 1.34228  C-G: 1.65020  C-T: 4.44779  G-T: 1.00000
+Base frequencies:  A: 0.300  C: 0.295  G: 0.240  T: 0.164
+Gamma shape alpha: 0.346
+Parameters optimization took 3 rounds (0.009 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.00033773 secs using 830.5% CPU
+Computing ML distances took 0.000431 sec (of wall-clock time) 0.002895 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000280172 secs using 104.9% CPU
+Computing RapidNJ tree took 0.002854 sec (of wall-clock time) 0.004074 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -3552.455
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.036 second
+Computing log-likelihood of 95 initial trees ... 0.031 seconds
+Current best score: -3546.558
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -3546.557
+UPDATE BEST LOG-LIKELIHOOD: -3546.557
+Iteration 10 / LogL: -3546.558 / Time: 0h:0m:0s
+UPDATE BEST LOG-LIKELIHOOD: -3546.557
+Iteration 20 / LogL: -3546.558 / Time: 0h:0m:0s
+Finish initializing candidate tree set (2)
+Current best tree score: -3546.557 / CPU time: 0.132
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+UPDATE BEST LOG-LIKELIHOOD: -3546.557
+Iteration 30 / LogL: -3546.558 / Time: 0h:0m:0s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -3546.557
+Iteration 40 / LogL: -3546.557 / Time: 0h:0m:0s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -3546.557
+Iteration 50 / LogL: -3546.560 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 60 / LogL: -3546.557 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 70 / LogL: -3546.559 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 80 / LogL: -3546.557 / Time: 0h:0m:0s (0h:0m:0s left)
+Iteration 90 / LogL: -3546.557 / Time: 0h:0m:0s (0h:0m:0s left)
+UPDATE BEST LOG-LIKELIHOOD: -3546.557
+Iteration 100 / LogL: -3546.557 / Time: 0h:0m:0s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:0s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -3546.557
+Optimal log-likelihood: -3546.556
+Rate parameters:  A-C: 2.07835  A-G: 4.25263  A-T: 1.34538  C-G: 1.65449  C-T: 4.47123  G-T: 1.00000
+Base frequencies:  A: 0.300  C: 0.295  G: 0.240  T: 0.164
+Gamma shape alpha: 0.344
+Parameters optimization took 1 rounds (0.001 sec)
+BEST SCORE FOUND : -3546.556
+Total tree length: 0.295
+
+Total number of iterations: 102
+CPU time used for tree search: 0.879 sec (0h:0m:0s)
+Wall-clock time used for tree search: 0.484 sec (0h:0m:0s)
+Total CPU time used: 0.927 sec (0h:0m:0s)
+Total wall-clock time used: 0.507 sec (0h:0m:0s)
+
+Analysis results written to: 
+  IQ-TREE report:                ./mammal_data_analysis_gtr/m13212_subsampled_gb.fas.iqtree
+  Maximum-likelihood tree:       ./mammal_data_analysis_gtr/m13212_subsampled_gb.fas.treefile
+  Likelihood distances:          ./mammal_data_analysis_gtr/m13212_subsampled_gb.fas.mldist
+  Screen log file:               ./mammal_data_analysis_gtr/m13212_subsampled_gb.fas.log
+
+Date and Time: Thu Oct  8 10:04:48 2026

@@ -1,0 +1,164 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: ./mammal_data_analysis_gtr/m4968_subsampled_gb.fas
+Type of analysis: tree reconstruction
+Random seed number: 250143
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 27 sequences with 1398 nucleotide sites
+Number of constant sites: 883 (= 63.1617% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 883 (= 63.1617% of all sites)
+Number of parsimony informative sites: 309
+Number of distinct site patterns: 537
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: GTR+F+G5
+
+Rate parameter R:
+
+  A-C: 2.3334
+  A-G: 7.7575
+  A-T: 1.0557
+  C-G: 1.9226
+  C-T: 3.8623
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2147
+  pi(C) = 0.2426
+  pi(G) = 0.2544
+  pi(T) = 0.2882
+
+Rate matrix Q:
+
+  A    -1.326    0.2639      0.92    0.1418
+  C    0.2335   -0.9804     0.228    0.5189
+  G    0.7762    0.2174    -1.128    0.1343
+  T    0.1056    0.4368    0.1186    -0.661
+
+Model of rate heterogeneity: Gamma with 5 categories
+Gamma shape alpha: 0.3458
+
+ Category  Relative_rate  Proportion
+  1         0.00509        0.2
+  2         0.07194        0.2
+  3         0.3168         0.2
+  4         0.9713         0.2
+  5         3.635          0.2
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -7432.6898 (s.e. 204.2036)
+Unconstrained log-likelihood (without tree): -7204.0399
+Number of free parameters (#branches + #model parameters): 60
+Akaike information criterion (AIC) score: 14985.3796
+Corrected Akaike information criterion (AICc) score: 14990.8546
+Bayesian information criterion (BIC) score: 15299.9475
+
+Total tree length (sum of branch lengths): 1.0851
+Sum of internal branch lengths: 0.2589 (23.8609% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'monodelphis_domestica' is drawn at root
+
++------------------------------------------------monodelphis_domestica
+|
+|  +----------------------------------------------------------ornithorhynchus_anatinus
++**|
+|  |                               +--------otolemur_garnettii
+|  |                            +--|
+|  |                            |  +-------microcebus_murinus
+|  |                         +--|
+|  |                         |  |                          +**macaca_fascicularis
+|  |                         |  |                       +**|
+|  |                         |  |                       |  +--macaca_nemestrina
+|  |                         |  |                    +**|
+|  |                         |  |                    |  +**macaca_mulatta
+|  |                         |  |                 +--|
+|  |                         |  |                 |  |  +--rhinopithecus_bieti
+|  |                         |  |                 |  +--|
+|  |                         |  |                 |     +--colobus_angolensis_palliatus
+|  |                         |  |              +--|
+|  |                         |  |              |  +--cercocebus_atys
+|  |                         |  |         +----|
+|  |                         |  |         |    +--chlorocebus_sabaeus
+|  |                         |  |    +----|
+|  |                         |  |    |    +--pan_troglodytes
+|  |                         |  +----|
+|  |                         |       |     +--callithrix_jacchus
+|  |                         |       +-----|
+|  |                         |             +--cebus_capucinus
+|  |                      +--|
+|  |                      |  |     +------------------ochotona_princeps
+|  |                      |  |  +--|
+|  |                      |  |  |  |  +------------cavia_porcellus
+|  |                      |  |  |  +--|
+|  |                      |  |  |     +--------------fukomys_damarensis
+|  |                      |  +--|
+|  |                      |     |                         +--mus_caroli
+|  |                      |     |      +------------------|
+|  |                      |     |      |                  +--mus_musculus
+|  |                      |     +------|
+|  |                      |            +------------jaculus_jaculus
+|  |                   +--|
+|  |                   |  |     +---------------sus_scrofa
+|  |                   |  |  +--|
+|  |                   |  |  |  +------------------------erinaceus_europaeus
+|  |                   |  +--|
+|  |                   |     |  +--------------pteropus_vampyrus
+|  |                   |     +--|
+|  |                   |        +------------felis_catus
+|  +-------------------|
+|                      |  +---------loxodonta_africana
+|                      +--|
+|                         +----------------------echinops_telfairi
+|
++-----tupaia_belangeri
+
+Tree in newick format:
+
+(monodelphis_domestica:0.1280264190,(ornithorhynchus_anatinus:0.1555380075,(((((otolemur_garnettii:0.0258872900,microcebus_murinus:0.0209029639):0.0076471083,(((((((macaca_fascicularis:0.0000010000,macaca_nemestrina:0.0016928047):0.0000010000,macaca_mulatta:0.0000010000):0.0000020544,(rhinopithecus_bieti:0.0052252246,colobus_angolensis_palliatus:0.0037545722):0.0021939844):0.0007338982,cercocebus_atys:0.0022211321):0.0007389766,chlorocebus_sabaeus:0.0007367945):0.0152657635,pan_troglodytes:0.0042135226):0.0145701002,(callithrix_jacchus:0.0083121984,cebus_capucinus:0.0097934672):0.0164214564):0.0136822360):0.0054280548,((ochotona_princeps:0.0495538759,(cavia_porcellus:0.0356309788,fukomys_damarensis:0.0399133411):0.0092930990):0.0055930278,((mus_caroli:0.0038539150,mus_musculus:0.0074050914):0.0505975712,jaculus_jaculus:0.0356571992):0.0207332224):0.0056976877):0.0053875301,((sus_scrofa:0.0440618805,erinaceus_europaeus:0.0649690234):0.0048753889,(pteropus_vampyrus:0.0391778271,felis_catus:0.0359349179):0.0036559711):0.0085332543):0.0072211474,(loxodonta_africana:0.0268022403,echinops_telfairi:0.0608027650):0.0070654454):0.0534549897):0.0001146156,tupaia_belangeri:0.0160950581);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t ./mammal_data_analysis_gtr/m4968_subsampled_gb.fas.treefile -m "GTR{2.33341,7.75752,1.05573,1.92257,3.86232}+F{0.214679,0.242624,0.254449,0.288248}+G5{0.345771}" --length 1398
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ./mammal_data_analysis_gtr/m4968_subsampled_gb.fas --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ./mammal_data_analysis_gtr/m4968_subsampled_gb.fas --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct  8 10:05:17 2026
+Total CPU time used: 18.6314 seconds (0h:0m:18s)
+Total wall-clock time used: 9.63844 seconds (0h:0m:9s)
+
