@@ -1,0 +1,217 @@
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    DESKTOP-5BFHPQJ (AVX2, FMA3, 7 GB RAM)
+Command: ./mammal_data_analysis_hky/iqtree2 -s ./mammal_data_analysis_hky/m3085_subsampled_gb.fas -m HKY+G% -nt 2
+Seed:    171470 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  8 10:19:34 2026
+Kernel:  AVX+FMA - 2 threads (12 CPU cores detected)
+
+Reading alignment file ./mammal_data_analysis_hky/m3085_subsampled_gb.fas ... Fasta format detected
+Reading fasta file: done in 0.000590109 secs using 99.64% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 23 sequences with 2396 columns, 1045 distinct patterns
+634 parsimony-informative, 417 singleton sites, 1345 constant sites
+                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.6949e-05 secs using 64.95% CPU
+   1  sarcophilus_harrisii             36.94%    passed     95.88%
+   2  ornithorhynchus_anatinus         39.02%    passed     47.07%
+   3  mustela_putorius_furo             0.17%    passed     99.20%
+   4  choloepus_hoffmanni              12.85%    passed     49.40%
+   5  monodelphis_domestica            36.85%    passed     84.77%
+   6  rhinopithecus_roxellana           0.08%    passed     94.53%
+   7  peromyscus_maniculatus_bairdii    1.34%    passed     11.80%
+   8  cricetulus_griseus_chok1gshd      0.42%    passed     71.71%
+   9  ovis_aries                        0.17%    passed     97.76%
+  10  papio_anubis                      0.17%    passed     99.97%
+  11  jaculus_jaculus                  18.53%    passed     87.02%
+  12  rhinopithecus_bieti               0.08%    passed     95.44%
+  13  callithrix_jacchus                5.93%    passed     78.00%
+  14  canis_familiaris                  1.50%    passed     79.92%
+  15  nannospalax_galili               26.50%    passed     35.17%
+  16  panthera_tigris_altaica           0.25%    passed     93.08%
+  17  pan_troglodytes                   5.43%    passed     85.55%
+  18  tursiops_truncatus                0.92%    passed     89.37%
+  19  pan_paniscus                      0.83%    passed     84.27%
+  20  oryctolagus_cuniculus             0.08%    passed     60.65%
+  21  cavia_aperea                     21.79%    passed      6.79%
+  22  cebus_capucinus                   2.42%    passed     87.99%
+  23  ailuropoda_melanoleuca            0.33%    passed     99.14%
+****  TOTAL                             9.24%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.002 seconds
+ERROR: Wrong model name +G%
+
+******************************************************
+CHECKPOINT: Resuming analysis from ./mammal_data_analysis_hky/m3085_subsampled_gb.fas.ckp.gz
+
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    DESKTOP-5BFHPQJ (AVX2, FMA3, 7 GB RAM)
+Command: ./mammal_data_analysis_hky/iqtree2 -s ./mammal_data_analysis_hky/m3085_subsampled_gb.fas -m HKY+G5% -nt 2
+Seed:    405073 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  8 10:19:52 2026
+Kernel:  AVX+FMA - 2 threads (12 CPU cores detected)
+
+WARNING: Command-line argument `HKY+G5%` differs from checkpoint `HKY+G%`
+WARNING: Command-line differs from checkpoint!
+Reading alignment file ./mammal_data_analysis_hky/m3085_subsampled_gb.fas ... Fasta format detected
+Reading fasta file: done in 0.00061741 secs using 99.77% CPU
+Alignment most likely contains DNA/RNA sequences
+Alignment has 23 sequences with 2396 columns, 1045 distinct patterns
+634 parsimony-informative, 417 singleton sites, 1345 constant sites
+                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 4.0406e-05 secs using 96.52% CPU
+   1  sarcophilus_harrisii             36.94%    passed     95.88%
+   2  ornithorhynchus_anatinus         39.02%    passed     47.07%
+   3  mustela_putorius_furo             0.17%    passed     99.20%
+   4  choloepus_hoffmanni              12.85%    passed     49.40%
+   5  monodelphis_domestica            36.85%    passed     84.77%
+   6  rhinopithecus_roxellana           0.08%    passed     94.53%
+   7  peromyscus_maniculatus_bairdii    1.34%    passed     11.80%
+   8  cricetulus_griseus_chok1gshd      0.42%    passed     71.71%
+   9  ovis_aries                        0.17%    passed     97.76%
+  10  papio_anubis                      0.17%    passed     99.97%
+  11  jaculus_jaculus                  18.53%    passed     87.02%
+  12  rhinopithecus_bieti               0.08%    passed     95.44%
+  13  callithrix_jacchus                5.93%    passed     78.00%
+  14  canis_familiaris                  1.50%    passed     79.92%
+  15  nannospalax_galili               26.50%    passed     35.17%
+  16  panthera_tigris_altaica           0.25%    passed     93.08%
+  17  pan_troglodytes                   5.43%    passed     85.55%
+  18  tursiops_truncatus                0.92%    passed     89.37%
+  19  pan_paniscus                      0.83%    passed     84.27%
+  20  oryctolagus_cuniculus             0.08%    passed     60.65%
+  21  cavia_aperea                     21.79%    passed      6.79%
+  22  cebus_capucinus                   2.42%    passed     87.99%
+  23  ailuropoda_melanoleuca            0.33%    passed     99.14%
+****  TOTAL                             9.24%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+CHECKPOINT: Initial tree restored
+ERROR: Wrong model name +G5%
+
+******************************************************
+CHECKPOINT: Resuming analysis from ./mammal_data_analysis_hky/m3085_subsampled_gb.fas.ckp.gz
+
+IQ-TREE multicore version 2.4.0 for Linux x86 64-bit built Feb  7 2025
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor, Heiko Schmidt,
+Dominik Schrempf, Michael Woodhams, Ly Trong Nhan, Thomas Wong
+
+Host:    DESKTOP-5BFHPQJ (AVX2, FMA3, 7 GB RAM)
+Command: ./mammal_data_analysis_hky/iqtree2 -s ./mammal_data_analysis_hky/m3085_subsampled_gb.fas -m HKY+G5 -nt 2
+Seed:    522813 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Oct  8 10:20:09 2026
+Kernel:  AVX+FMA - 2 threads (12 CPU cores detected)
+
+WARNING: Command-line argument `HKY+G5` differs from checkpoint `HKY+G%`
+WARNING: Command-line differs from checkpoint!
+Reading alignment file ./mammal_data_analysis_hky/m3085_subsampled_gb.fas ... Fasta format detected
+Reading fasta file: done in 0.000638179 secs
+Alignment most likely contains DNA/RNA sequences
+Alignment has 23 sequences with 2396 columns, 1045 distinct patterns
+634 parsimony-informative, 417 singleton sites, 1345 constant sites
+                                Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 3.4324e-05 secs using 32.05% CPU
+   1  sarcophilus_harrisii             36.94%    passed     95.88%
+   2  ornithorhynchus_anatinus         39.02%    passed     47.07%
+   3  mustela_putorius_furo             0.17%    passed     99.20%
+   4  choloepus_hoffmanni              12.85%    passed     49.40%
+   5  monodelphis_domestica            36.85%    passed     84.77%
+   6  rhinopithecus_roxellana           0.08%    passed     94.53%
+   7  peromyscus_maniculatus_bairdii    1.34%    passed     11.80%
+   8  cricetulus_griseus_chok1gshd      0.42%    passed     71.71%
+   9  ovis_aries                        0.17%    passed     97.76%
+  10  papio_anubis                      0.17%    passed     99.97%
+  11  jaculus_jaculus                  18.53%    passed     87.02%
+  12  rhinopithecus_bieti               0.08%    passed     95.44%
+  13  callithrix_jacchus                5.93%    passed     78.00%
+  14  canis_familiaris                  1.50%    passed     79.92%
+  15  nannospalax_galili               26.50%    passed     35.17%
+  16  panthera_tigris_altaica           0.25%    passed     93.08%
+  17  pan_troglodytes                   5.43%    passed     85.55%
+  18  tursiops_truncatus                0.92%    passed     89.37%
+  19  pan_paniscus                      0.83%    passed     84.27%
+  20  oryctolagus_cuniculus             0.08%    passed     60.65%
+  21  cavia_aperea                     21.79%    passed      6.79%
+  22  cebus_capucinus                   2.42%    passed     87.99%
+  23  ailuropoda_melanoleuca            0.33%    passed     99.14%
+****  TOTAL                             9.24%  0 sequences failed composition chi2 test (p-value<5%; df=3)
+
+CHECKPOINT: Initial tree restored
+
+NOTE: 3 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -14314.210
+2. Current log-likelihood: -13842.886
+3. Current log-likelihood: -13702.797
+4. Current log-likelihood: -13696.931
+Optimal log-likelihood: -13696.894
+Rate parameters:  A-C: 1.00000  A-G: 4.12291  A-T: 1.00000  C-G: 1.00000  C-T: 4.12291  G-T: 1.00000
+Base frequencies:  A: 0.324  C: 0.207  G: 0.229  T: 0.239
+Gamma shape alpha: 0.465
+Parameters optimization took 4 rounds (0.049 sec)
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 0.0012074 secs using 463.8% CPU
+Computing ML distances took 0.001369 sec (of wall-clock time) 0.005762 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.000285903 secs using 116.5% CPU
+Computing RapidNJ tree took 0.006170 sec (of wall-clock time) 0.009488 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -13730.930
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.184 second
+Computing log-likelihood of 98 initial trees ... 0.273 seconds
+Current best score: -13696.894
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -13696.890
+Iteration 10 / LogL: -13697.103 / Time: 0h:0m:0s
+Iteration 20 / LogL: -13697.347 / Time: 0h:0m:1s
+Finish initializing candidate tree set (2)
+Current best tree score: -13696.890 / CPU time: 1.014
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Iteration 30 / LogL: -13697.382 / Time: 0h:0m:1s (0h:0m:3s left)
+Iteration 40 / LogL: -13705.868 / Time: 0h:0m:1s (0h:0m:2s left)
+Iteration 50 / LogL: -13696.927 / Time: 0h:0m:2s (0h:0m:2s left)
+Iteration 60 / LogL: -13709.577 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 70 / LogL: -13697.040 / Time: 0h:0m:2s (0h:0m:1s left)
+Iteration 80 / LogL: -13698.354 / Time: 0h:0m:3s (0h:0m:0s left)
+Iteration 90 / LogL: -13710.057 / Time: 0h:0m:3s (0h:0m:0s left)
+Iteration 100 / LogL: -13697.103 / Time: 0h:0m:3s (0h:0m:0s left)
+TREE SEARCH COMPLETED AFTER 102 ITERATIONS / Time: 0h:0m:3s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -13696.890
+Optimal log-likelihood: -13696.890
+Rate parameters:  A-C: 1.00000  A-G: 4.12282  A-T: 1.00000  C-G: 1.00000  C-T: 4.12282  G-T: 1.00000
+Base frequencies:  A: 0.324  C: 0.207  G: 0.229  T: 0.239
+Gamma shape alpha: 0.465
+Parameters optimization took 1 rounds (0.006 sec)
+BEST SCORE FOUND : -13696.890
+Total tree length: 1.329
+
+Total number of iterations: 102
+CPU time used for tree search: 7.211 sec (0h:0m:7s)
+Wall-clock time used for tree search: 3.763 sec (0h:0m:3s)
+Total CPU time used: 7.377 sec (0h:0m:7s)
+Total wall-clock time used: 3.846 sec (0h:0m:3s)
+
+Analysis results written to: 
+  IQ-TREE report:                ./mammal_data_analysis_hky/m3085_subsampled_gb.fas.iqtree
+  Maximum-likelihood tree:       ./mammal_data_analysis_hky/m3085_subsampled_gb.fas.treefile
+  Likelihood distances:          ./mammal_data_analysis_hky/m3085_subsampled_gb.fas.mldist
+  Screen log file:               ./mammal_data_analysis_hky/m3085_subsampled_gb.fas.log
+
+Date and Time: Thu Oct  8 10:20:13 2026

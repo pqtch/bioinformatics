@@ -1,0 +1,74 @@
+>notamacropus_eugenii
+GC Content: 44.00%
+>ornithorhynchus_anatinus
+GC Content: 48.00%
+>panthera_pardus
+GC Content: 49.00%
+>rhinopithecus_roxellana
+GC Content: 47.00%
+>cavia_aperea
+GC Content: 47.00%
+>peromyscus_maniculatus_bairdii
+GC Content: 49.00%
+>pan_paniscus
+GC Content: 47.00%
+>chlorocebus_sabaeus
+GC Content: 47.00%
+>mus_musculus
+GC Content: 49.00%
+>rattus_norvegicus
+GC Content: 49.00%
+>sus_scrofa
+GC Content: 47.00%
+>cercocebus_atys
+GC Content: 46.00%
+>erinaceus_europaeus
+GC Content: 29.00%
+>choloepus_hoffmanni
+GC Content: 30.00%
+>tupaia_belangeri
+GC Content: 34.00%
+>macaca_nemestrina
+GC Content: 47.00%
+>myotis_lucifugus
+GC Content: 48.00%
+>propithecus_coquereli
+GC Content: 47.00%
+>octodon_degus
+GC Content: 45.00%
+>mus_caroli
+GC Content: 49.00%
+>papio_anubis
+GC Content: 38.00%
+>canis_familiaris
+GC Content: 47.00%
+>sarcophilus_harrisii
+GC Content: 43.00%
+>ailuropoda_melanoleuca
+GC Content: 48.00%
+>sorex_araneus
+GC Content: 8.00%
+>nannospalax_galili
+GC Content: 49.00%
+>mus_pahari
+GC Content: 49.00%
+>mustela_putorius_furo
+GC Content: 49.00%
+>bos_taurus
+GC Content: 47.00%
+>ochotona_princeps
+GC Content: 46.00%
+>jaculus_jaculus
+GC Content: 36.00%
+>echinops_telfairi
+GC Content: 34.00%
+>aotus_nancymaae
+GC Content: 47.00%
+>loxodonta_africana
+GC Content: 48.00%
+>capra_hircus
+GC Content: 47.00%
+>microcebus_murinus
+GC Content: 46.00%
+>monodelphis_domestica
+GC Content: 45.00%

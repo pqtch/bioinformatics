@@ -1,0 +1,74 @@
+>notamacropus_eugenii
+total sequence length: 921
+>ornithorhynchus_anatinus
+total sequence length: 921
+>panthera_pardus
+total sequence length: 921
+>rhinopithecus_roxellana
+total sequence length: 921
+>cavia_aperea
+total sequence length: 921
+>peromyscus_maniculatus_bairdii
+total sequence length: 921
+>pan_paniscus
+total sequence length: 921
+>chlorocebus_sabaeus
+total sequence length: 921
+>mus_musculus
+total sequence length: 921
+>rattus_norvegicus
+total sequence length: 921
+>sus_scrofa
+total sequence length: 921
+>cercocebus_atys
+total sequence length: 921
+>erinaceus_europaeus
+total sequence length: 921
+>choloepus_hoffmanni
+total sequence length: 921
+>tupaia_belangeri
+total sequence length: 921
+>macaca_nemestrina
+total sequence length: 921
+>myotis_lucifugus
+total sequence length: 921
+>propithecus_coquereli
+total sequence length: 921
+>octodon_degus
+total sequence length: 921
+>mus_caroli
+total sequence length: 921
+>papio_anubis
+total sequence length: 921
+>canis_familiaris
+total sequence length: 921
+>sarcophilus_harrisii
+total sequence length: 921
+>ailuropoda_melanoleuca
+total sequence length: 921
+>sorex_araneus
+total sequence length: 921
+>nannospalax_galili
+total sequence length: 921
+>mus_pahari
+total sequence length: 921
+>mustela_putorius_furo
+total sequence length: 921
+>bos_taurus
+total sequence length: 921
+>ochotona_princeps
+total sequence length: 921
+>jaculus_jaculus
+total sequence length: 921
+>echinops_telfairi
+total sequence length: 921
+>aotus_nancymaae
+total sequence length: 921
+>loxodonta_africana
+total sequence length: 921
+>capra_hircus
+total sequence length: 921
+>microcebus_murinus
+total sequence length: 921
+>monodelphis_domestica
+total sequence length: 921

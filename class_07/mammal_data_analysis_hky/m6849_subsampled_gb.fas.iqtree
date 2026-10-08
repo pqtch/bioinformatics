@@ -1,0 +1,180 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: ./mammal_data_analysis_hky/m6849_subsampled_gb.fas
+Type of analysis: tree reconstruction
+Random seed number: 16142
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 35 sequences with 1045 nucleotide sites
+Number of constant sites: 587 (= 56.1722% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 587 (= 56.1722% of all sites)
+Number of parsimony informative sites: 254
+Number of distinct site patterns: 446
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+G5
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 3.9541
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 3.9541
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2582
+  pi(C) = 0.2255
+  pi(G) = 0.2148
+  pi(T) = 0.3015
+
+Rate matrix Q:
+
+  A   -0.9332    0.1529    0.5759    0.2044
+  C     0.175    -1.129    0.1456    0.8084
+  G    0.6921    0.1529     -1.05    0.2044
+  T     0.175    0.6046    0.1456   -0.9253
+
+Model of rate heterogeneity: Gamma with 5 categories
+Gamma shape alpha: 0.4807
+
+ Category  Relative_rate  Proportion
+  1         0.01865        0.2
+  2         0.1452         0.2
+  3         0.4514         0.2
+  4         1.095          0.2
+  5         3.289          0.2
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -6247.2430 (s.e. 188.4961)
+Unconstrained log-likelihood (without tree): -5180.9767
+Number of free parameters (#branches + #model parameters): 72
+Akaike information criterion (AIC) score: 12638.4859
+Corrected Akaike information criterion (AICc) score: 12649.3008
+Bayesian information criterion (BIC) score: 12995.0135
+
+Total tree length (sum of branch lengths): 1.2717
+Sum of internal branch lengths: 0.3509 (27.5919% of tree length)
+
+WARNING: 5 near-zero internal branches (<0.0010) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'monodelphis_domestica' is drawn at root
+
++------monodelphis_domestica
+|
+|          +-----------------------------------------------ornithorhynchus_anatinus
++----------|
+|          |                   +-----dasypus_novemcinctus
+|          |                +--|
+|          |                |  +---tupaia_belangeri
+|          |             +--|
+|          |             |  |      +----nannospalax_galili
+|          |             |  |  +---|
+|          |             |  |  |   +-----mus_pahari
+|          |             |  +--|
+|          |             |     |  +-----chinchilla_lanigera
+|          |             |     +--|
+|          |             |        |  +--heterocephalus_glaber_female
+|          |             |        +--|
+|          |             |           +--fukomys_damarensis
+|          |          +--|
+|          |          |  |           +---tursiops_truncatus
+|          |          |  |        +--|
+|          |          |  |        |  |     +--ovis_aries
+|          |          |  |        |  |  +--|
+|          |          |  |        |  |  |  +--capra_hircus
+|          |          |  |        |  +--|
+|          |          |  |        |     +--bos_taurus
+|          |          |  |     +**|
+|          |          |  |     |  +---equus_caballus
+|          |          |  |  +**|
+|          |          |  |  |  +------myotis_lucifugus
+|          |          |  +--|
+|          |          |     |     +--felis_catus
+|          |          |     |  +**|
+|          |          |     |  |  +--mustela_putorius_furo
+|          |          |     +--|
+|          |          |        +---canis_familiaris
+|          |       +--|
+|          |       |  |              +--homo_sapiens
+|          |       |  |           +--|
+|          |       |  |           |  |  +--gorilla_gorilla
+|          |       |  |           |  +**|
+|          |       |  |           |     +--pan_troglodytes
+|          |       |  |        +--|
+|          |       |  |        |  +--nomascus_leucogenys
+|          |       |  |     +--|
+|          |       |  |     |  |        +--cercocebus_atys
+|          |       |  |     |  |     +**|
+|          |       |  |     |  |     |  |  +--macaca_mulatta
+|          |       |  |     |  |     |  +--|
+|          |       |  |     |  |     |     +--macaca_fascicularis
+|          |       |  |     |  |  +--|
+|          |       |  |     |  |  |  +--chlorocebus_sabaeus
+|          |       |  |     |  +--|
+|          |       |  |     |     |     +--rhinopithecus_bieti
+|          |       |  |     |     |  +--|
+|          |       |  |     |     |  |  +**rhinopithecus_roxellana
+|          |       |  |     |     +--|
+|          |       |  |     |        +--colobus_angolensis_palliatus
+|          |       |  |  +--|
+|          |       |  |  |  +---cebus_capucinus
+|          |       |  +--|
+|          |       |     |  +---otolemur_garnettii
+|          |       |     +--|
+|          |       |        +--propithecus_coquereli
+|          +-------|
+|                  |  +----loxodonta_africana
+|                  +--|
+|                     +------procavia_capensis
+|
++-----sarcophilus_harrisii
+
+Tree in newick format:
+
+(monodelphis_domestica:0.0434348709,(ornithorhynchus_anatinus:0.2928806252,(((((dasypus_novemcinctus:0.0388570865,tupaia_belangeri:0.0285756527):0.0222194427,((nannospalax_galili:0.0341188491,mus_pahari:0.0402031707):0.0277297559,(chinchilla_lanigera:0.0376263145,(heterocephalus_glaber_female:0.0083141774,fukomys_damarensis:0.0151502822):0.0081432630):0.0078863849):0.0106265895):0.0041165215,((((tursiops_truncatus:0.0276018784,((ovis_aries:0.0045374478,capra_hircus:0.0049474736):0.0072177967,bos_taurus:0.0065707634):0.0193181100):0.0135600929,equus_caballus:0.0260764229):0.0008819289,myotis_lucifugus:0.0465110096):0.0000021010,((felis_catus:0.0143360208,mustela_putorius_furo:0.0154747817):0.0008124736,canis_familiaris:0.0272388325):0.0166855317):0.0078271648):0.0018960856,(((((homo_sapiens:0.0039533073,(gorilla_gorilla:0.0009841318,pan_troglodytes:0.0019726661):0.0000010000):0.0049374786,nomascus_leucogenys:0.0060650431):0.0033458011,(((cercocebus_atys:0.0019643022,(macaca_mulatta:0.0029562785,macaca_fascicularis:0.0009809629):0.0009847529):0.0000010000,chlorocebus_sabaeus:0.0032501726):0.0009873755,((rhinopithecus_bieti:0.0021550013,rhinopithecus_roxellana:0.0000010000):0.0040436644,colobus_angolensis_palliatus:0.0038845211):0.0030501063):0.0087792488):0.0072515628,cebus_capucinus:0.0284958359):0.0140367091,(otolemur_garnettii:0.0277561243,propithecus_coquereli:0.0084962444):0.0094158744):0.0063541410):0.0085508821,(loxodonta_africana:0.0318047637,procavia_capensis:0.0423964142):0.0102316436):0.0507433664):0.0692585557,sarcophilus_harrisii:0.0412702900);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t ./mammal_data_analysis_hky/m6849_subsampled_gb.fas.treefile -m "HKY{3.95409}+F{0.25816,0.225521,0.214795,0.301524}+G5{0.480682}" --length 1045
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ./mammal_data_analysis_hky/m6849_subsampled_gb.fas --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ./mammal_data_analysis_hky/m6849_subsampled_gb.fas --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct  8 10:20:31 2026
+Total CPU time used: 8.38886 seconds (0h:0m:8s)
+Total wall-clock time used: 4.44463 seconds (0h:0m:4s)
+

@@ -1,0 +1,214 @@
+IQ-TREE 2.4.0 built Feb  7 2025
+
+Input file name: ./mammal_data_analysis_hky/m4281_subsampled_gb.fas
+Type of analysis: tree reconstruction
+Random seed number: 381757
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 52 sequences with 1523 nucleotide sites
+Number of constant sites: 673 (= 44.1891% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 673 (= 44.1891% of all sites)
+Number of parsimony informative sites: 616
+Number of distinct site patterns: 953
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: HKY+F+G5
+
+Rate parameter R:
+
+  A-C: 1.0000
+  A-G: 4.4163
+  A-T: 1.0000
+  C-G: 1.0000
+  C-T: 4.4163
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.2208
+  pi(C) = 0.2766
+  pi(G) = 0.2939
+  pi(T) = 0.2088
+
+Rate matrix Q:
+
+  A    -1.127    0.1748    0.8201    0.1319
+  C    0.1395   -0.9077    0.1857    0.5825
+  G     0.616    0.1748   -0.9227    0.1319
+  T    0.1395    0.7718    0.1857    -1.097
+
+Model of rate heterogeneity: Gamma with 5 categories
+Gamma shape alpha: 0.4942
+
+ Category  Relative_rate  Proportion
+  1         0.02043        0.2
+  2         0.1524         0.2
+  3         0.4625         0.2
+  4         1.104          0.2
+  5         3.261          0.2
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -14758.4342 (s.e. 350.8857)
+Unconstrained log-likelihood (without tree): -9618.9828
+Number of free parameters (#branches + #model parameters): 106
+Akaike information criterion (AIC) score: 29728.8684
+Corrected Akaike information criterion (AICc) score: 29744.8882
+Bayesian information criterion (BIC) score: 30293.6828
+
+Total tree length (sum of branch lengths): 2.3613
+Sum of internal branch lengths: 0.7512 (31.8130% of tree length)
+
+WARNING: 3 near-zero internal branches (<0.0007) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'sarcophilus_harrisii' is drawn at root
+
++----sarcophilus_harrisii
+|
+|                     +-----------ornithorhynchus_anatinus
++---------------------|
+|                     |                                    +--gorilla_gorilla
+|                     |                                 +--|
+|                     |                                 |  +--homo_sapiens
+|                     |                              +--|
+|                     |                              |  +--nomascus_leucogenys
+|                     |                           +--|
+|                     |                           |  |           +**papio_anubis
+|                     |                           |  |        +**|
+|                     |                           |  |        |  +**mandrillus_leucophaeus
+|                     |                           |  |     +--|
+|                     |                           |  |     |  |  +--macaca_nemestrina
+|                     |                           |  |     |  +--|
+|                     |                           |  |     |     +--macaca_fascicularis
+|                     |                           |  |  +**|
+|                     |                           |  |  |  |  +**rhinopithecus_roxellana
+|                     |                           |  |  |  +--|
+|                     |                           |  |  |     +**rhinopithecus_bieti
+|                     |                           |  +--|
+|                     |                           |     +--chlorocebus_sabaeus
+|                     |                        +--|
+|                     |                        |  |  +--callithrix_jacchus
+|                     |                        |  +--|
+|                     |                        |     |     +--aotus_nancymaae
+|                     |                        |     |  +--|
+|                     |                        |     |  |  +--saimiri_boliviensis_boliviensis
+|                     |                        |     +**|
+|                     |                        |        +--cebus_capucinus
+|                     |                     +--|
+|                     |                     |  +-------carlito_syrichta
+|                     |                  +--|
+|                     |                  |  |  +------otolemur_garnettii
+|                     |                  |  +--|
+|                     |                  |     +--propithecus_coquereli
+|                     |               +--|
+|                     |               |  |        +---------dipodomys_ordii
+|                     |               |  |     +--|
+|                     |               |  |     |  |   +------oryctolagus_cuniculus
+|                     |               |  |     |  +---|
+|                     |               |  |     |      +--------ochotona_princeps
+|                     |               |  |  +--|
+|                     |               |  |  |  |              +---microtus_ochrogaster
+|                     |               |  |  |  |           +--|
+|                     |               |  |  |  |           |  +--mesocricetus_auratus
+|                     |               |  |  |  |        +--|
+|                     |               |  |  |  |        |  +--peromyscus_maniculatus_bairdii
+|                     |               |  |  |  |     +--|
+|                     |               |  |  |  |     |  |           +--mus_spretus
+|                     |               |  |  |  |     |  |        +--|
+|                     |               |  |  |  |     |  |        |  +--mus_musculus
+|                     |               |  |  |  |     |  |     +--|
+|                     |               |  |  |  |     |  |     |  +--mus_caroli
+|                     |               |  |  |  |     |  |  +--|
+|                     |               |  |  |  |     |  |  |  +--mus_pahari
+|                     |               |  |  |  |     |  +--|
+|                     |               |  |  |  |     |     +--rattus_norvegicus
+|                     |               |  |  |  |  +--|
+|                     |               |  |  |  |  |  +----nannospalax_galili
+|                     |               |  |  |  +--|
+|                     |               |  |  |     +--------jaculus_jaculus
+|                     |               |  +--|
+|                     |               |     |            +--chinchilla_lanigera
+|                     |               |     |         +--|
+|                     |               |     |         |  +---octodon_degus
+|                     |               |     |      +--|
+|                     |               |     |      |  +--cavia_aperea
+|                     |               |     +------|
+|                     |               |            +-----heterocephalus_glaber_female
+|                     |            +--|
+|                     |            |  |                   +--bos_taurus
+|                     |            |  |              +----|
+|                     |            |  |              |    +--capra_hircus
+|                     |            |  |           +--|
+|                     |            |  |           |  +---sus_scrofa
+|                     |            |  |        +--|
+|                     |            |  |        |  +------equus_caballus
+|                     |            |  |     +--|
+|                     |            |  |     |  |         +--panthera_pardus
+|                     |            |  |     |  |   +-----|
+|                     |            |  |     |  |   |     |  +--felis_catus
+|                     |            |  |     |  |   |     +--|
+|                     |            |  |     |  |   |        +--panthera_tigris_altaica
+|                     |            |  |     |  +---|
+|                     |            |  |     |      +---------mustela_putorius_furo
+|                     |            |  |  +--|
+|                     |            |  |  |  |  +-----myotis_lucifugus
+|                     |            |  |  |  +--|
+|                     |            |  |  |     +--------pteropus_vampyrus
+|                     |            |  +--|
+|                     |            |     |     +---choloepus_hoffmanni
+|                     |            |     |  +--|
+|                     |            |     |  |  +----------procavia_capensis
+|                     |            |     +--|
+|                     |            |        +---------echinops_telfairi
+|                     +------------|
+|                                  |  +---dasypus_novemcinctus
+|                                  +--|
+|                                     +-----------------------erinaceus_europaeus
+|
++----notamacropus_eugenii
+
+Tree in newick format:
+
+(sarcophilus_harrisii:0.0397207755,(ornithorhynchus_anatinus:0.0863486447,(((((((((gorilla_gorilla:0.0020471011,homo_sapiens:0.0034678245):0.0014806592,nomascus_leucogenys:0.0080927305):0.0056992339,((((papio_anubis:0.0000010000,mandrillus_leucophaeus:0.0000010000):0.0000010000,(macaca_nemestrina:0.0006883884,macaca_fascicularis:0.0013689351):0.0006837167):0.0013709304,(rhinopithecus_roxellana:0.0000010000,rhinopithecus_bieti:0.0000010000):0.0041179797):0.0000010000,chlorocebus_sabaeus:0.0007304603):0.0041194306):0.0102874179,(callithrix_jacchus:0.0085703285,((aotus_nancymaae:0.0051147289,saimiri_boliviensis_boliviensis:0.0121273083):0.0012686658,cebus_capucinus:0.0064066571):0.0004247430):0.0199867072):0.0260409592,carlito_syrichta:0.0570192751):0.0036805328,(otolemur_garnettii:0.0529019181,propithecus_coquereli:0.0251130769):0.0123067422):0.0063898705,(((dipodomys_ordii:0.0753069521,(oryctolagus_cuniculus:0.0536150427,ochotona_princeps:0.0668905523):0.0312056509):0.0082789173,(((((microtus_ochrogaster:0.0300188961,mesocricetus_auratus:0.0221584601):0.0038437112,peromyscus_maniculatus_bairdii:0.0255825162):0.0079601040,((((mus_spretus:0.0041523025,mus_musculus:0.0020587031):0.0041385156,mus_caroli:0.0041744012):0.0057442665,mus_pahari:0.0155647125):0.0142004852,rattus_norvegicus:0.0271135679):0.0175258393):0.0197320942,nannospalax_galili:0.0358646764):0.0151533562,jaculus_jaculus:0.0655580172):0.0117615941):0.0036044981,(((chinchilla_lanigera:0.0186544279,octodon_degus:0.0329601331):0.0049190001,cavia_aperea:0.0267843984):0.0078906123,heterocephalus_glaber_female:0.0481704682):0.0534954621):0.0057004926):0.0105491138,((((((bos_taurus:0.0100297008,capra_hircus:0.0129302678):0.0362154561,sus_scrofa:0.0326354431):0.0113374956,equus_caballus:0.0533215280):0.0037522189,((panthera_pardus:0.0021043555,(felis_catus:0.0066169504,panthera_tigris_altaica:0.0078274348):0.0049436792):0.0452029828,mustela_putorius_furo:0.0765375425):0.0282585723):0.0015997680,(myotis_lucifugus:0.0492287562,pteropus_vampyrus:0.0679153515):0.0108439739):0.0066163190,((choloepus_hoffmanni:0.0304577524,procavia_capensis:0.0795005370):0.0064962702,echinops_telfairi:0.0746877692):0.0104347981):0.0056467587):0.0080804213,(dasypus_novemcinctus:0.0319885279,erinaceus_europaeus:0.1703378309):0.0050584246):0.0922229975):0.1550574883,notamacropus_eugenii:0.0355320366);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t ./mammal_data_analysis_hky/m4281_subsampled_gb.fas.treefile -m "HKY{4.41634}+F{0.220756,0.276591,0.293893,0.208759}+G5{0.494175}" --length 1523
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s ./mammal_data_analysis_hky/m4281_subsampled_gb.fas --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s ./mammal_data_analysis_hky/m4281_subsampled_gb.fas --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Thu Oct  8 10:20:23 2026
+Total CPU time used: 18.9851 seconds (0h:0m:18s)
+Total wall-clock time used: 9.90876 seconds (0h:0m:9s)
+

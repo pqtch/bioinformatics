@@ -1,0 +1,12 @@
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/m11337_subsampled_gb.fas
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/m11353_subsampled_gb.fas
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/m13212_subsampled_gb.fas
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/m14339_subsampled_gb.fas
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/m2778_subsampled_gb.fas
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/m3085_subsampled_gb.fas
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/m4281_subsampled_gb.fas
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/m4968_subsampled_gb.fas
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/m6849_subsampled_gb.fas
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/m8061_subsampled_gb.fas
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/test.fas
+/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis/test.fas.bak

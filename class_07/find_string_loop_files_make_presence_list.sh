@@ -6,7 +6,7 @@ word2="sarcophilus_harrisii"
 word3="monodelphis_domestica"
 
 ### set the directory where your files are located
-directory="/u/erdos/jbarba/mammal_data_analysis"
+directory="/home/patch/fordham_bioinformatics/class_07/mammal_data_analysis"
 
 ### create an empty file to store the list of matching files
 output_file="matching_files.txt"

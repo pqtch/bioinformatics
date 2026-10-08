@@ -1,0 +1,11 @@
+m11337_subsampled_gb.fas.log:BEST SCORE FOUND : -4845.658
+m11353_subsampled_gb.fas.log:BEST SCORE FOUND : -3817.447
+m13212_subsampled_gb.fas.log:BEST SCORE FOUND : -3549.698
+m14339_subsampled_gb.fas.log:BEST SCORE FOUND : -2897.927
+m2778_subsampled_gb.fas.log:BEST SCORE FOUND : -7735.857
+m3085_subsampled_gb.fas.log:BEST SCORE FOUND : -13696.890
+m4281_subsampled_gb.fas.log:BEST SCORE FOUND : -14758.434
+m4968_subsampled_gb.fas.log:BEST SCORE FOUND : -7474.612
+m6849_subsampled_gb.fas.log:BEST SCORE FOUND : -6247.243
+m8061_subsampled_gb.fas.log:BEST SCORE FOUND : -6225.599
+test.fas.log:BEST SCORE FOUND : -14758.437
