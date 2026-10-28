@@ -1,0 +1,5 @@
+# sequencing data stays on erdos
+*.fastq
+*.fastq.gz
+*.zip
+GCF_*/
