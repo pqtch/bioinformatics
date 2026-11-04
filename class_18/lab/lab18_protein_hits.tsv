@@ -1,0 +1,5 @@
+Mystery	85.323	1131	0.0	1292	[gene=Act79B] [locus_tag=Dmel_CG7478] [db_xref=FLYBASE:FBpp0306215,GeneID:40444] [protein=actin 79B, isoform B] [protein_id=NP_001262200.1] [location=join(21985351..21986275,21986638..21986843)] [gbkey=CDS]
+Mystery	85.323	1131	0.0	1292	[gene=Act79B] [locus_tag=Dmel_CG7478] [db_xref=FLYBASE:FBpp0078131,GeneID:40444] [protein=actin 79B, isoform A] [protein_id=NP_524210.1] [location=join(21985351..21986275,21986638..21986843)] [gbkey=CDS]
+Mystery	85.234	1131	0.0	1287	[gene=Act88F] [locus_tag=Dmel_CG5178] [db_xref=FLYBASE:FBpp0082597,GeneID:41885] [protein=actin 88F] [protein_id=NP_524367.1] [location=join(15440616..15441540,15441602..15441807)] [gbkey=CDS]
+Mystery	85.146	1131	0.0	1283	[gene=Act57B] [locus_tag=Dmel_CG10067] [db_xref=FLYBASE:FBpp0071448,GeneID:37368] [protein=actin 57B] [protein_id=NP_523800.1] [location=join(20944117..20944156,20944844..20945934)] [gbkey=CDS]
+Mystery	84.881	1131	0.0	1269	[gene=Act87E] [locus_tag=Dmel_CG18290] [db_xref=FLYBASE:FBpp0312019,GeneID:48632] [protein=actin 87E, isoform C] [protein_id=NP_001287314.1] [location=13426604..13427734] [gbkey=CDS]
