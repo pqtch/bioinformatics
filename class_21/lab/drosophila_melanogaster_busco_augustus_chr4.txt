@@ -1,0 +1,17 @@
+# BUSCO version is: 6.1.0 
+# The lineage dataset is: diptera_odb10 (Creation date: 2024-01-08, number of genomes: 56, number of BUSCOs: 3285)
+# Summarized benchmarking in BUSCO notation for file /u/erdos/students/pshields/functional_genome_annotation_diamond/drosophila_melanogaster/chr4_augustus_proteins.faa
+# BUSCO was run in mode: proteins
+
+	***** Results: *****
+
+	C:0.1%[S:0.1%,D:0.0%],F:0.0%,M:99.8%,n:3285	   
+	4	Complete BUSCOs (C)			   
+	4	Complete and single-copy BUSCOs (S)	   
+	0	Complete and duplicated BUSCOs (D)	   
+	1	Fragmented BUSCOs (F)			   
+	3280	Missing BUSCOs (M)			   
+	3285	Total BUSCO groups searched		   
+
+Dependencies and versions:
+	hmmsearch: 3.4

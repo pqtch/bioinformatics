@@ -1,0 +1,22 @@
+g1.t1	sp|P13607|ATNA_DROME	65.4	465	1.06e-204	601	sp|P13607|ATNA_DROME Sodium/potassium-transporting ATPase subunit alpha OS=Drosophila melanogaster OX=7227 GN=Atpalpha PE=1 SV=3
+g2.t1	sp|B3P9W1|RS3A_DROER	100	259	8.37e-166	489	sp|B3P9W1|RS3A_DROER Small ribosomal subunit protein eS1 OS=Drosophila erecta OX=7220 GN=RpS3A PE=3 SV=1
+g3.t1	sp|Q7JUN3|ABCD1_DROME	61.1	342	5.01e-112	358	sp|Q7JUN3|ABCD1_DROME ATP-binding cassette sub-family D member 1 OS=Drosophila melanogaster OX=7227 GN=Abcd1 PE=2 SV=1
+g4.t1	sp|A3KMV2|RD23A_BOVIN	37.0	381	4.23e-40	155	sp|A3KMV2|RD23A_BOVIN Lysine-specific demethylase RAD23A OS=Bos taurus OX=9913 GN=RAD23A PE=2 SV=1
+g5.t1	sp|Q98SH2|AT2B1_CHICK	38.6	1070	1.19e-214	639	sp|Q98SH2|AT2B1_CHICK Plasma membrane calcium-transporting ATPase 1 OS=Gallus gallus OX=9031 GN=ATP2B1 PE=2 SV=2
+g6.t1	sp|Q9V4C8|HCF_DROME	69.9	1158	0.0	1367	sp|Q9V4C8|HCF_DROME Host cell factor OS=Drosophila melanogaster OX=7227 GN=Hcf PE=1 SV=2
+g7.t1	sp|Q961D9|BCL9_DROME	98.4	1408	0.0	2615	sp|Q961D9|BCL9_DROME Protein BCL9 homolog OS=Drosophila melanogaster OX=7227 GN=lgs PE=1 SV=1
+g8.t1	sp|W0LYS5|CAMKI_MACNP	78.5	260	1.31e-137	394	sp|W0LYS5|CAMKI_MACNP Calcium/calmodulin-dependent protein kinase type 1 OS=Macrobrachium nipponense OX=159736 GN=CaMKI PE=2 SV=1
+g9.t1	sp|Q8IMC6|ASATR_DROME	42.0	892	1.09e-178	545	sp|Q8IMC6|ASATR_DROME Tau-tubulin kinase homolog Asator OS=Drosophila melanogaster OX=7227 GN=Asator PE=1 SV=2
+g10.t1	sp|P28167|ZFH2_DROME	99.3	3000	0.0	5536	sp|P28167|ZFH2_DROME Zinc finger protein 2 OS=Drosophila melanogaster OX=7227 GN=zfh2 PE=1 SV=2
+g11.t1	sp|Q91WD5|NDUS2_MOUSE	79.6	431	2.13e-243	718	sp|Q91WD5|NDUS2_MOUSE NADH dehydrogenase [ubiquinone] iron-sulfur protein 2, mitochondrial OS=Mus musculus OX=10090 GN=Ndufs2 PE=1 SV=1
+g12.t1	sp|Q9NJB5|ONEC_DROME	100	1067	0.0	1879	sp|Q9NJB5|ONEC_DROME Homeobox protein onecut OS=Drosophila melanogaster OX=7227 GN=onecut PE=2 SV=2
+g13.t1	sp|Q23551|UNC22_CAEEL	42.6	5788	0.0	4613	sp|Q23551|UNC22_CAEEL Twitchin OS=Caenorhabditis elegans OX=6239 GN=unc-22 PE=1 SV=3
+g14.t1	sp|B1H349|SOX6_XENTR	57.6	172	2.22e-48	189	sp|B1H349|SOX6_XENTR Transcription factor Sox-6 OS=Xenopus tropicalis OX=8364 GN=sox6 PE=2 SV=1
+g15.t1	sp|Q7KQM6|GGYF1_DROME	85.6	1517	0.0	2223	sp|Q7KQM6|GGYF1_DROME GIGYF family protein Gyf OS=Drosophila melanogaster OX=7227 GN=Gyf PE=1 SV=2
+g16.t1	sp|Q9W141|ATPK_DROME	84.5	71	9.74e-37	129	sp|Q9W141|ATPK_DROME Putative ATP synthase subunit f, mitochondrial OS=Drosophila melanogaster OX=7227 GN=ATPsynF PE=3 SV=1
+g17.t1	sp|P70206|PLXA1_MOUSE	63.9	341	8.80e-130	435	sp|P70206|PLXA1_MOUSE Plexin-A1 OS=Mus musculus OX=10090 GN=Plxna1 PE=1 SV=1
+g18.t1	sp|Q05825|ATPB_DROME	100	505	0.0	966	sp|Q05825|ATPB_DROME ATP synthase subunit beta, mitochondrial OS=Drosophila melanogaster OX=7227 GN=ATPsynbeta PE=1 SV=3
+g19.t1	sp|Q00168|KCC2A_DROME	61.4	446	1.37e-172	490	sp|Q00168|KCC2A_DROME Calcium/calmodulin-dependent protein kinase type II alpha chain OS=Drosophila melanogaster OX=7227 GN=CaMKII PE=1 SV=1
+g20.t1	sp|Q9V496|APLP_DROME	99.4	2126	0.0	4137	sp|Q9V496|APLP_DROME Apolipophorins OS=Drosophila melanogaster OX=7227 GN=apolpp PE=1 SV=2
+g21.t1	sp|Q9V498|CSTN1_DROME	97.0	265	1.79e-174	521	sp|Q9V498|CSTN1_DROME Calsyntenin-1 OS=Drosophila melanogaster OX=7227 GN=Cals PE=1 SV=2
+g22.t1	sp|Q9NHE5|CAPS_DROME	91.8	98	2.14e-44	177	sp|Q9NHE5|CAPS_DROME Calcium-dependent secretion activator OS=Drosophila melanogaster OX=7227 GN=Cadps PE=1 SV=4
